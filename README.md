@@ -2,6 +2,9 @@
 
 Este projeto visa monitorar e enviar dados de sensores ambientais, como temperatura, umidade, pressão atmosférica e altitude, para a plataforma **ThingSpeak** usando uma placa **ESP32**. A leitura dos dados é feita a partir de sensores **DHT11** (umidade e temperatura) e **BMP280** (pressão e altitude), permitindo o monitoramento remoto através da internet.
 
+## Exemplo de Canal em Funcionamento
+- https://thingspeak.com/channels/415483
+
 ## Funcionalidades
 
 - **Monitoramento de Temperatura**: Coleta dados de temperatura em graus Celsius do sensor DHT11.
