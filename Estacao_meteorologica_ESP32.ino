@@ -16,14 +16,14 @@ Adafruit_BMP280 bmp;
 DHT dht(DHTPIN, DHTTYPE);
 
 // Credenciais da rede WiFi
-const char* ssid = "Nome da rede";   
-const char* password = "12345678";   
+const char* ssid = "SEU_SSID";   
+const char* password = "SUA_SENHA";   
 
 WiFiClient client;
 
 // Configurações do ThingSpeak
-unsigned long myChannelNumber = 123456;
-const char * myWriteAPIKey = "MINHACHAVE";
+unsigned long myChannelNumber = SEU_NUMERO_DO_CANAL;
+const char * myWriteAPIKey = "SUA_API_KEY";
 
 // Temporizador
 unsigned long lastTime = 0;
